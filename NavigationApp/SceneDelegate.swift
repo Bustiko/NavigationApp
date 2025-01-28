@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  NavigationApp
 //
-//  Created by Buse Karabıyık on 28.01.2025.
+//  Created by Buse Karabıyık on 4.07.2024.
 //
 
 import UIKit

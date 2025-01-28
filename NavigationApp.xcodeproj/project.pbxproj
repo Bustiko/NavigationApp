@@ -6,30 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C96C2BBD2D495D5100F40474 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C96C2BBC2D495D5100F40474 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C96C2B852D495CBC00F40474 /* NavigationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96C2B9D2D495CFF00F40474 /* DataStorageLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorageLogic.swift; sourceTree = "<group>"; };
+		C96C2B9E2D495CFF00F40474 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		C96C2B9F2D495CFF00F40474 /* WeatherDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataManager.swift; sourceTree = "<group>"; };
+		C96C2BA02D495CFF00F40474 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		C96C2BA12D495CFF00F40474 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		C96C2BA22D495CFF00F40474 /* GeoDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDataManager.swift; sourceTree = "<group>"; };
+		C96C2BA32D495CFF00F40474 /* GeoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoData.swift; sourceTree = "<group>"; };
+		C96C2BA42D495CFF00F40474 /* GeoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDataModel.swift; sourceTree = "<group>"; };
+		C96C2BA62D495CFF00F40474 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C96C2BA72D495CFF00F40474 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C96C2BA82D495CFF00F40474 /* ViewControllerUIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUIExtensions.swift; sourceTree = "<group>"; };
+		C96C2BA92D495CFF00F40474 /* ViewControllerLocationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLocationExtensions.swift; sourceTree = "<group>"; };
+		C96C2BAA2D495CFF00F40474 /* ViewControllerWeatherExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWeatherExtensions.swift; sourceTree = "<group>"; };
+		C96C2BAB2D495CFF00F40474 /* ViewControllerNavigationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNavigationExtensions.swift; sourceTree = "<group>"; };
+		C96C2BAD2D495CFF00F40474 /* UIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFunctions.swift; sourceTree = "<group>"; };
+		C96C2BAE2D495CFF00F40474 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		C96C2BAF2D495CFF00F40474 /* NavigationUIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUIFunctions.swift; sourceTree = "<group>"; };
+		C96C2BB02D495CFF00F40474 /* MapViewUIFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewUIFunctions.swift; sourceTree = "<group>"; };
+		C96C2BB22D495CFF00F40474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C96C2BB32D495CFF00F40474 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C96C2BB42D495CFF00F40474 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C96C2BB62D495CFF00F40474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C96C2BB72D495CFF00F40474 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C96C2BB92D495CFF00F40474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96C2BBA2D495CFF00F40474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C96C2BBC2D495D5100F40474 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C96C2B972D495CBF00F40474 /* Exceptions for "NavigationApp" folder in "NavigationApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C96C2B842D495CBC00F40474 /* NavigationApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C96C2B872D495CBC00F40474 /* NavigationApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C96C2B972D495CBF00F40474 /* Exceptions for "NavigationApp" folder in "NavigationApp" target */,
-			);
-			path = NavigationApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C96C2B822D495CBC00F40474 /* Frameworks */ = {
@@ -45,7 +54,8 @@
 		C96C2B7C2D495CBB00F40474 = {
 			isa = PBXGroup;
 			children = (
-				C96C2B872D495CBC00F40474 /* NavigationApp */,
+				C96C2BBC2D495D5100F40474 /* .gitignore */,
+				C96C2BBB2D495CFF00F40474 /* NavigationApp */,
 				C96C2B862D495CBC00F40474 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +66,62 @@
 				C96C2B852D495CBC00F40474 /* NavigationApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C96C2BA52D495CFF00F40474 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2B9D2D495CFF00F40474 /* DataStorageLogic.swift */,
+				C96C2B9E2D495CFF00F40474 /* Error.swift */,
+				C96C2B9F2D495CFF00F40474 /* WeatherDataManager.swift */,
+				C96C2BA02D495CFF00F40474 /* WeatherData.swift */,
+				C96C2BA12D495CFF00F40474 /* WeatherModel.swift */,
+				C96C2BA22D495CFF00F40474 /* GeoDataManager.swift */,
+				C96C2BA32D495CFF00F40474 /* GeoData.swift */,
+				C96C2BA42D495CFF00F40474 /* GeoDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C96C2BAC2D495CFF00F40474 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2BA62D495CFF00F40474 /* ViewController.swift */,
+				C96C2BA72D495CFF00F40474 /* DetailViewController.swift */,
+				C96C2BA82D495CFF00F40474 /* ViewControllerUIExtensions.swift */,
+				C96C2BA92D495CFF00F40474 /* ViewControllerLocationExtensions.swift */,
+				C96C2BAA2D495CFF00F40474 /* ViewControllerWeatherExtensions.swift */,
+				C96C2BAB2D495CFF00F40474 /* ViewControllerNavigationExtensions.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C96C2BB12D495CFF00F40474 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2BAD2D495CFF00F40474 /* UIFunctions.swift */,
+				C96C2BAE2D495CFF00F40474 /* GraphView.swift */,
+				C96C2BAF2D495CFF00F40474 /* NavigationUIFunctions.swift */,
+				C96C2BB02D495CFF00F40474 /* MapViewUIFunctions.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C96C2BBB2D495CFF00F40474 /* NavigationApp */ = {
+			isa = PBXGroup;
+			children = (
+				C96C2BA52D495CFF00F40474 /* Model */,
+				C96C2BAC2D495CFF00F40474 /* Controller */,
+				C96C2BB12D495CFF00F40474 /* View */,
+				C96C2BB22D495CFF00F40474 /* AppDelegate.swift */,
+				C96C2BB32D495CFF00F40474 /* SceneDelegate.swift */,
+				C96C2BB52D495CFF00F40474 /* Main.storyboard */,
+				C96C2BB62D495CFF00F40474 /* Assets.xcassets */,
+				C96C2BB82D495CFF00F40474 /* LaunchScreen.storyboard */,
+				C96C2BB92D495CFF00F40474 /* Info.plist */,
+				C96C2BBA2D495CFF00F40474 /* GoogleService-Info.plist */,
+			);
+			path = NavigationApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +138,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C96C2B872D495CBC00F40474 /* NavigationApp */,
 			);
 			name = NavigationApp;
 			packageProductDependencies = (
@@ -122,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96C2BBD2D495D5100F40474 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +200,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C96C2BB52D495CFF00F40474 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96C2BB42D495CFF00F40474 /* Main.storyboard */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C96C2BB82D495CFF00F40474 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C96C2BB72D495CFF00F40474 /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C96C2B992D495CBF00F40474 /* Debug */ = {
