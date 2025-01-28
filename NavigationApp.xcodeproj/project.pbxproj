@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C96C2BBD2D495D5100F40474 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C96C2BBC2D495D5100F40474 /* .gitignore */; };
+		C96C2BC02D495DF000F40474 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C96C2BBF2D495DF000F40474 /* FirebaseAuth */; };
+		C96C2BC22D495DF000F40474 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C96C2BC12D495DF000F40474 /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C96C2BC22D495DF000F40474 /* FirebaseDatabase in Frameworks */,
+				C96C2BC02D495DF000F40474 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +145,8 @@
 			);
 			name = NavigationApp;
 			packageProductDependencies = (
+				C96C2BBF2D495DF000F40474 /* FirebaseAuth */,
+				C96C2BC12D495DF000F40474 /* FirebaseDatabase */,
 			);
 			productName = NavigationApp;
 			productReference = C96C2B852D495CBC00F40474 /* NavigationApp.app */;
@@ -170,6 +176,9 @@
 			);
 			mainGroup = C96C2B7C2D495CBB00F40474;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C96C2BBE2D495DF000F40474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C96C2B862D495CBC00F40474 /* Products */;
 			projectDirPath = "";
@@ -418,6 +427,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C96C2BBE2D495DF000F40474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C96C2BBF2D495DF000F40474 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C96C2BBE2D495DF000F40474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C96C2BC12D495DF000F40474 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C96C2BBE2D495DF000F40474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C96C2B7D2D495CBB00F40474 /* Project object */;
 }
